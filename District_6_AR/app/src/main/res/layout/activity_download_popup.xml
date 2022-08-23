@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3C9E4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="157dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="286dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="All videos, images, audio and navigation has been downloaded for the tour."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:autoSizeStepGranularity="20sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exit_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="11dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Download Complete"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:autoSizeStepGranularity="10sp"
+        app:autoSizeTextType="uniform" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="22dp"
+        android:clickable="true"
+        app:backgroundTint="#FFFFFF"
+        app:rippleColor="#F4F4F4"
+        app:srcCompat="@drawable/ic_baseline_close_24" />
+
+</RelativeLayout>
