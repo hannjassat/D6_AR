@@ -14,4 +14,10 @@
     <string name="permission_message">You must grant permission to access camera to run this application.</string>
     <string name="permission_warning">All permissions are required.</string>
     <string name="title_activity_map_tour">map_tour</string>
+    <string name="routing_service_url">https://sampleserver6.arcgisonline.com/arcgis/rest/services/NetworkAnalysis/SanDiego/NAServer/Route</string>
+    <string name="distance_remaining">Distance remaining: %s %s</string>
+    <string name="time_remaining">Time remaining: %s</string>
+    <string name="next_direction">Next direction: %s</string>
+    <string name="navigate_route">Navigate Route</string>
+    <string name="recenter">Recenter</string>
 </resources>
